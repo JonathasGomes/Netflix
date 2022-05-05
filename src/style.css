@@ -67,5 +67,39 @@ header .logo img{
     backdrop-filter: blur(10px);
 }
 
+.search input::placeholder{
+    color: #fff;
+}
 
+.search .fa-search{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY();
+    border-radius:  1px solid #fff;
+}
 
+.banner{
+   position: relative;
+   width: 100%;
+   min-height: 100vh;
+   padding: 0 100px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.banner .bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+    max-width: 550px;
+}
