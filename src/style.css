@@ -164,3 +164,29 @@ header .logo img{
     background: rgba(0, 0, 0, 0.5);
     border: 1px solid rgba(255, 255, 255, 0.1)
 }
+
+.banner .content .buttons a:hover:nth-child(2){
+    background: #de0611;
+}
+
+.play {
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    display: inline-block;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.play img{
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 50px;
+}
