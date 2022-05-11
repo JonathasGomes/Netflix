@@ -206,10 +206,12 @@ header .logo img{
     visibility: hidden;
     opacity: 0;
 }
+
 .trailer.active{
     visibility: visible;
     opacity: 1;
 }
+
 .trailer .close{
     position: absolute;
     top: 30px;
@@ -217,4 +219,26 @@ header .logo img{
     cursor: pointer;
     filter: invert(1);
     max-width: 32px;
+}
+
+@media (max-width: 600px){
+    header {
+        padding: 20px;
+    }
+
+    .search {
+        position: relative;
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+
+    .banner {
+        padding: 220px 20px 100px;
+    }
+
+    .banner .play{
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
+    }
 }
